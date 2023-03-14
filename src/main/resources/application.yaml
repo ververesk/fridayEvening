@@ -1,0 +1,10 @@
+
+zeebe.client:
+  broker.gateway-address: localhost:26500
+zeebe:
+  client:
+    security:
+      plaintext: true
+
+server:
+  port: 8090
