@@ -1,4 +1,4 @@
-package com.example.fridayEvening.worker;
+package com.example.fridayEvening.worker.choose.evening;
 
 import io.camunda.zeebe.spring.client.annotation.ZeebeVariable;
 import io.camunda.zeebe.spring.client.annotation.ZeebeWorker;

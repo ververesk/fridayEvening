@@ -1,4 +1,4 @@
-package com.example.fridayEvening.worker;
+package com.example.fridayEvening.worker.choose.evening;
 
 import com.example.fridayEvening.controller.dto.ProcessVariables;
 import io.camunda.zeebe.client.api.response.ActivatedJob;

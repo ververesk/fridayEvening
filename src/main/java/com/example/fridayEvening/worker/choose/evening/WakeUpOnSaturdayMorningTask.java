@@ -1,6 +1,6 @@
-package com.example.fridayEvening.worker;
+package com.example.fridayEvening.worker.choose.evening;
 
-import com.example.fridayEvening.worker.dto.AllVariables;
+import com.example.fridayEvening.worker.choose.evening.dto.AllVariables;
 import io.camunda.zeebe.client.api.response.ActivatedJob;
 import io.camunda.zeebe.spring.client.annotation.ZeebeWorker;
 import lombok.extern.slf4j.Slf4j;

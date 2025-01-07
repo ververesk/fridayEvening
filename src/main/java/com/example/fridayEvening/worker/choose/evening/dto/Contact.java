@@ -1,4 +1,4 @@
-package com.example.fridayEvening.worker.dto;
+package com.example.fridayEvening.worker.choose.evening.dto;
 
 import lombok.Data;
 

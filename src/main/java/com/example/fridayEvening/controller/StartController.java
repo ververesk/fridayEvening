@@ -10,16 +10,20 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequiredArgsConstructor
 @RestController
 @RequestMapping("/start")
+@RequiredArgsConstructor
 public class StartController {
 
     private final StartService startService;
 
-    @PostMapping()
-    @SneakyThrows
-    public ProcessData startProcess(@RequestBody ProcessVariables request) {
-        return startService.startProcess(request);
+    @PostMapping("/friday/evening")
+    public ProcessData startFridayEveningProcess(@RequestBody ProcessVariables request) {
+        return startService.startFridayEveningProcess(request);
+    }
+
+    @PostMapping("/prepare/work")
+    public ProcessData startPrepareToWorkProcess() {
+        return startService.startPrepareToWorkProcess();
     }
 }
